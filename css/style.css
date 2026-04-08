@@ -548,6 +548,7 @@ body.dark-theme .theme-toggle-indicator {
 
 .grid-menu-link {
     text-align: center;
+    text-decoration: none;
 }
 
 /* Responsive media query code for small screens */
