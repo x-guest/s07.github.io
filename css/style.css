@@ -484,12 +484,12 @@ body.dark-theme .theme-toggle-indicator {
 }
 
 .content-block.menupop .content-link.active {
-    border-bottom: 2px solid var(--color-text-primary);
+    border: 0px;
 }
 
 .content-block.menupop .content-link:hover {
     color: var(--color-text-primary);
-	border-bottom: 2px solid var(--color-text-primary);
+    border: 0px;
 }
 
 .menu-link-logo {
