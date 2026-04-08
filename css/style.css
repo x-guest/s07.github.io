@@ -24,7 +24,7 @@
   --content-shadow: 0px 0px 0px 10px #30456f4f;
   --img-bg-button-settings: url(../img/control/background_button_black.png);
   --color-bg-button-settings: #bccfea;
-  --img-bg-container: url(../img/control/light-bg.jpg);
+  --img-bg-container: linear-gradient(180deg,rgba(60, 85, 99, 1) 0%, rgba(212, 212, 212, 1) 0%, rgba(79, 134, 168, 1) 100%);
 }
 
 body.dark-theme {
@@ -43,7 +43,7 @@ body.dark-theme {
   --content-shadow: 0px 0px 0px 10px #374e745c;
   --img-bg-button-settings: url(../img/control/background_button_white.png);
   --color-bg-button-settings: #334b67;
-  --img-bg-container: url(../img/control/black-bg.jpg);
+  --img-bg-container: linear-gradient(180deg,rgba(36, 36, 36, 1) 0%, rgba(18, 52, 94, 1) 35%, rgba(7, 129, 166, 1) 100%);;
 }
 
 body {
