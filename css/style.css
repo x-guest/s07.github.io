@@ -51,7 +51,7 @@ body.dark-theme {
   --color-bg-button-settings: #334b67;
   --img-bg-container: linear-gradient(180deg,rgba(36, 36, 36, 1) 0%, rgba(18, 52, 94, 1) 35%, rgba(7, 129, 166, 1) 100%);
   --color-bg-container-primary: #000000;
-  --color-bg-sidebar-ads: #ffffff00;
+  --color-bg-sidebar-ads: #000000;
   --color-bg-secondary-ads: #353535;
   --color-hover-primary-ads: #555555;
   --color-hover-secondary-ads: #555555;
