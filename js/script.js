@@ -6,6 +6,9 @@ const themeIcon = themeToggleBtn.querySelector(".theme-text");
 const menuIcon = themeToggleBtn.querySelector(".menu-icon");
 const menuLinks = document.querySelectorAll(".menu-link");
 
+// Toggle class state on buttons click
+const buttons = document.querySelectorAll(".menu-link.settings.null");
+
 // Updates the theme icon based on current theme and sidebar state
 const updateThemeIcon = () => {
   const isDark = document.body.classList.contains("dark-theme");
@@ -35,6 +38,16 @@ sidebarToggleBtns.forEach((btn) => {
   });
 });
 
+// Toggle class state on buttons click
+buttons.forEach(btn => {
+  btn.addEventListener("click", function() {
+    // 1. Remove the class from all buttons
+    buttons.forEach(b => b.classList.remove("active"));
+    
+    // 2. Add the class to the one that was clicked
+    this.classList.add("active");
+  });
+});
 
 
 // Expand sidebar by default on large screens
