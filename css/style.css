@@ -566,6 +566,15 @@ body.dark-theme .theme-toggle-indicator {
   flex-direction: column;
 }
 
+.listing.download {
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.listing.download .grid-menu-link-logo {
+    background: none;
+    width: 100%;
+}
+
 .grid-menu-link {
     text-align: center;
     text-decoration: none;
