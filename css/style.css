@@ -212,6 +212,10 @@ body.ads-theme {
   flex-direction: column;
 }
 
+.menu-link.settings.null.active {
+    transition: none;
+}
+
 .menu-list .menu-link {
   display: flex;
   gap: 12px;
@@ -692,4 +696,3 @@ body.dark-theme .theme-toggle-indicator {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }
- 
