@@ -12,7 +12,7 @@
 ## Схема раздела меню настроек.
 Схематично, раздел перевода меню настроек выглядит аналогично разделам меню настроек на головном устройстве (центральном планшете) автомобиля. 
 
-<img src = "img/readme/readme_6.jpg" width="100%">
+<img src = "img/readme/readme_6.png" width="100%">
 
 ## [PDF версия](https://x-guest.github.io/s07.github.io/download.html)
 <img src = "img/readme/readme_4.png" width="50%"><img src = "img/readme/readme_5.png" width="50%">
